@@ -1,0 +1,41 @@
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 50px;
+}
+
+header * {
+    display: inline-block;
+}
+
+header h1 {
+    font-size: 2.7rem;
+    margin-right: 80px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-inline: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+hr {
+    background-color: black;
+    height: 1px;
+}
+
+main h1 {
+    font-weight: 400;
+    font-family: Veranda;
+}
+
+p {
+    line-height: 1.3;
+}
