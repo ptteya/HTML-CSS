@@ -1,0 +1,29 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51);
+    margin: 30px;
+}
+
+article {
+    line-height: 25px;
+    padding: 10px 35px;
+    width: 60%;
+    float: left;
+}
+
+img {
+    width: 50%;
+}
+
+aside {
+    line-height: 20px;
+    width: 17%;
+    display: inline-block;
+}
+
+aside ul li {
+    list-style-type: square;
+    text-indent: 10px;
+    line-height: 25px;
+}
