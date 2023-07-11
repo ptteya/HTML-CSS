@@ -1,0 +1,44 @@
+body {
+    margin: 60px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-inline: 15px;
+}
+
+a {
+    background-color: rgb(236, 236, 236);
+    padding: 20px;
+    border-radius: 50%;
+}
+
+i {
+    color: black;
+    font-size: 22px;
+    vertical-align: middle;
+}
+
+.fa-square-facebook:hover {
+    color: rgb(8, 61, 141);
+}
+
+.fa-twitter:hover {
+    color: rgb(12, 208, 222);
+}
+
+.fa-google-plus:hover {
+    color: rgb(201, 41, 41);
+}
+
+.fa-linkedin:hover {
+    color: rgb(44, 135, 234);
+}
+
+.fa-instagram:hover {
+    color: rgb(122, 169, 219);
+}
