@@ -1,0 +1,37 @@
+body {
+    font-family: Helvetica, sans-serif;
+    padding: 50px;
+}
+
+header {
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+}
+
+header p {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0 0 15px 0;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+}
+
+main h1 {
+    font-weight: 400;
+    font-family: Georgia, serif;
+}
+
+p {
+    line-height: 1.5;
+}
