@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    background-color: #eee;
+    justify-content: center;
+}
+
+ul {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+li {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    border: 8px solid black;
+    box-shadow: 0px 10px 20px rgb(128, 126, 126);
+    align-items: center;
+}
