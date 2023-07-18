@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: rgb(238, 238, 238);
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 56vw;
+    gap: 15px;
+}
+
+div {
+    display: flex;
+    width: 130px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(126, 126, 126)
+}
+
+.big-image {
+    background-color: black;
+    flex-grow: 1;
+    justify-content: center;
+}
