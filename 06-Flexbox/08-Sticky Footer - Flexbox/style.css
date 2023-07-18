@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: Helvetica, sans-serif;
+    background: rgb(238, 238, 238);
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    border-bottom: 3px solid black;
+}
+
+header p {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 30px;
+    margin: 0px;
+}
+
+main {
+    padding: 30px;
+}
+
+main p {
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+footer p {
+    color: rgb(255, 255, 255);
+    background: rgb(102, 102, 102);
+    padding: 20px 30px;
+}
