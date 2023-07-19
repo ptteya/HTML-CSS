@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+}
+
+header .logo {
+    width: 7%;
+}
+
+.list-items {
+    display: flex;
+}
+
+.list-items li {
+    list-style: none;
+    margin-inline: 7px;
+}
+
+.list-items li a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+main h1 {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -300px;
+}
+
+.calculator-wrapper {
+    background-color: #434559;
+    height: 400px;
+}
+
+#calculator {
+    position: relative;
+    right: 50px;
+    top: 50px;
+}
+
+.programs {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: relative;
+    bottom: 200px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 25%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.75);
+    text-align: center;
+}
+
+.card h2 {
+    margin-top: 30px;
+    color: #54546D;
+}
+
+.card>p {
+    padding: 20px;
+    color: #54546D;
+}
+
+.card-footer>div:nth-child(1) {
+    padding-right: 40px;
+    border-right: 1px solid white;
+}
+
+.basics>p {
+    position: relative;
+    top: -30px;
+}
+
+.basics button {
+    background-color: #9A5DC6;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    border: none;
+    border-radius: 50px;
+    width: 200px;
+    padding: 10px 20px;
+    align-self: center;
+}
+
+.basics .card-footer {
+    background-image: linear-gradient(to right, #079e41, #1eab50, #2eb95f, #3bc66f, #48d47e);
+    color: white;
+    padding: 20px;
+}
+
+.footer-title {
+    font-size: 20px;
+    padding: 8px;
+}
+
+.footer-description {
+    font-size: 14px;
+    padding: 6px;
+}
+
+.fundamentals .card-footer {
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, #4d6e8c, #52799c, #5783ac, #5c8ebc, #6199cd);
+    color: white;
+    padding: 20px;
+}
+
+.professional .card-footer {
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, #4f3caa, #5e4bb7, #6d5bc5, #7b6bd2, #8a7be0);
+    color: white;
+    padding: 20px;
+}
+
+.learning-options {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -70px;
+}
+
+.learning-options h3 {
+    color: #6e6e6e;
+    font-size: 20px;
+}
+
+.learning-options p {
+    margin: 30px 0 40px 0;
+}
+
+.learning-options ul li {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 20px;
+}
+
+.learning-options ul li span {
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 30%;
+}
+
+.learning-options ul li:nth-child(odd) {
+    background-color: #E6E6E6;
+}
+
+.learning-options ul li:nth-child(even) {
+    background-color: #F8F8F8;
+}
+
+.learning-options ul li:first-child {
+    border-radius: 5px 5px 0 0;
+}
+
+.learning-options ul li:last-child {
+    border-radius: 0 0 5px 5px;
+}
+
+.finance {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 60px auto 120px auto;
+}
+
+.finance .content h3 {
+    color: #6e6e6e;
+    font-size: 20px;
+}
+
+.finance .content p {
+    margin-top: 20px;
+}
+
+footer {
+    padding: 20px;
+    background-color: #434559;
+    color: white;
+    text-align: center;
+}
