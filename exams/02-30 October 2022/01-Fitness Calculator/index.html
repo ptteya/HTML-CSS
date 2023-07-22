@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="img-wrapper">
+            <img src="calculator.png" alt="">
+        </div>
+
+        <div class="content">
+            <h1>FITNESS CALCULATOR</h1>
+
+            <div class="units-container">
+                <button id="standart-units">Standart units (US)</button>
+                <button>Metric units</button>
+            </div>
+
+            <form>
+                <div class="gender-container">
+                    <p>Gender</p>
+
+                    <select name="gender" id="gender">
+                        <option value="Female">Female</option>
+                        <option value="male">Male</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <span>
+                        <input type="text" placeholder="Years...">
+                    </span>
+
+                </div>
+
+                <div class="Weight-container">
+                    <p>Weight</p>
+                    <input type="number" id="weight" placeholder="Pounds...">
+                </div>
+
+                <div class="height-container">
+                    <p>Height</p>
+
+                    <div class="height-inputs">
+                        <span>
+                            <input type="number" id="feet" placeholder="Feet...">
+                        </span>
+                        <span>
+                            <input type="number" id="inches" placeholder="Inches...">
+                        </span>
+                    </div>
+                </div>
+                <button id="calculate-btn">Calculate</button>
+            </form>
+
+        </div>
+    </div>
+</body>
+
+</html>

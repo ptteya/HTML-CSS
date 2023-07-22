@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.card {
+    display: flex;
+    width: 70%;
+    margin: 4rem auto;
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.img-wrapper {
+    width: 50%;
+    filter: brightness(70%);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.content {
+    width: 50%;
+    background: #f6f7f8;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.content h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 10%;
+}
+
+.units-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.units-container button {
+    width: 155px;
+    padding: 10px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+#standart-units {
+    background-color: rgb(146, 226, 146);
+}
+
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form p {
+    padding: 20px;
+    font-weight: 700;
+}
+
+#gender {
+    width: 30%;
+    margin-right: 40px;
+}
+
+#weight {
+    width: 80%;
+    padding: 5px;
+}
+
+#feet,
+#inches {
+    width: 40%;
+    padding: 2px;
+}
+
+#feet {
+    margin-right: 20px;
+}
+
+#calculate-btn {
+    width: 87%;
+    margin-top: 10%;
+    color: white;
+    background: #05a2d3;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14pt;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}

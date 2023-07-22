@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.address {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 48px;
+    background-color: rgb(208, 25, 25);
+    color: white;
+}
+
+.address div i {
+    padding-right: 10px;
+}
+
+.header {
+    background: url('./image/fitness-main.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.header nav {
+    width: 50%;
+    float: right;
+}
+
+.header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px 48px;
+    gap: 90px;
+}
+
+.header nav ul li {
+    list-style-type: none;
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.header h1 {
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 10px;
+    padding-top: 160px;
+    padding-bottom: 32px;
+}
+
+.header p {
+    width: 30%;
+    margin: auto;
+    padding-bottom: 32px;
+    color: white;
+}
+
+.header button {
+    background-color: rgb(208, 25, 25);
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    margin-bottom: 128px;
+}
+
+/* /// */
+
+.services-container {
+    background-color: white;
+    /* text-align: center; */
+}
+
+.services-container h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.services-container h1::after {
+    content: '';
+    width: 2%;
+    height: 3px;
+    position: absolute;
+    bottom: 300px;
+    left: 49%;
+    background: #D01919;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.img-container {
+    width: 20%;
+}
+
+.img-container img {
+    width: 100%;
+}
+
+.card h3 {
+    padding: 20px;
+    color: rgb(208, 25, 25);
+}
+
+.card p {
+    text-align: center;
+}
+
+/* /// */
+
+.coaches {
+    background-color: #eee;
+}
+
+.coaches h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.coaches h1::after {
+    content: '';
+    width: 2%;
+    height: 3px;
+    position: absolute;
+    bottom: -90px;
+    left: 49%;
+    background: #D01919;
+}
+
+.coaches-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.coach-card p {
+    padding: 1rem 7rem;
+    margin-bottom: 3rem;
+    color: #A6A1A5;
+}
+
+.coach-card img {
+    width: 60%;
+}
+
+footer {
+    background-color: rgb(208, 25, 25);
+    text-align: center;
+    padding: 5px 0;
+}
