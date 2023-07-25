@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto&display=swap');
+
+:root {
+    --dark-brown: #9b9189;
+    --light-brown: #f2f0f3;
+    --med-brown: #bab1ad;
+    --green-brown: #67784d;
+    --headings: #333333;
+    --shadow: #929090;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    color: var(--headings);
+}
+
+.top-container {
+    background-image: url(image/image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    padding: 40px;
+}
+
+.top-title-container {
+    width: 14%;
+    font-size: 18px;
+    box-shadow: 0 0 10px 1px var(--headings);
+    padding: 25px 15px;
+    /* position: relative;
+    left: 130px; */
+}
+
+.top-title-container hr {
+    width: 50%;
+    background-color: white;
+    border: none;
+    height: 2px;
+    margin-bottom: 10px;
+}
+
+.top-title-container h1 {
+    font-family: 'Abril Fatface', cursive;
+    color: var(--headings);
+    margin-bottom: 10px;
+}
+
+.top-description-container {
+    box-shadow: 0 0 10px 1px var(--headings);
+    width: 19%;
+    padding: 25px 15px;
+    background-image: linear-gradient(to right, var(--dark-brown), #c9c7c6);
+    float: right;
+}
+
+.top-description-container p {
+    text-align: end;
+    text-shadow: 2px 2px var(--headings);
+}
+
+.big {
+    font-size: 70px;
+    color: #8d8581;
+    margin-top: -50px;
+}
+
+.top-description-container p:nth-child(2) {
+    color: white;
+    line-height: 1.5;
+}
+
+.bottom-container {
+    display: flex;
+}
+
+.left {
+    width: 60%;
+    padding: 60px;
+}
+
+.services-container {
+    margin-bottom: 50px;
+}
+
+.services-container h1 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.service {
+    padding: 10px 0;
+}
+
+.service span {
+    color: var(--headings);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 1px 0 5px;
+}
+
+.contact-container h1 {
+    text-transform: uppercase;
+}
+
+.details {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0 30px 0;
+}
+
+.emp-letter {
+    color: var(--headings);
+    font-weight: 700;
+    font-style: italic;
+}
+
+.btns input,
+.btns button {
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.btns input {
+    background-color: var(--med-brown);
+    width: 30%;
+}
+
+.btns input::placeholder {
+    color: white;
+}
+
+.btns button {
+    background-color: var(--green-brown);
+    width: 10%;
+}
+
+.right {
+    background-color: var(--med-brown);
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.num {
+    color: white;
+    font-size: 70px;
+    font-weight: 100;
+}
+
+.right p {
+    text-transform: uppercase;
+}

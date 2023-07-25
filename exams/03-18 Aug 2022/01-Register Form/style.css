@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+:root {
+    --btn-color: #ae3c33;
+    --background-url: url(images/background.png);
+    --form-background-url: url(images/form-background.png);
+    --shadows: #888888;
+    --border-color: #cccccc;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mulish", sans-serif;
+    background-image: var(--background-url);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-image: var(--form-background-url);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 20px 15px 15px var(--shadows);
+    border-radius: 20px;
+    padding: 80px 50px;
+    width: 60%;
+}
+
+p {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 10%;
+    padding-bottom: 35px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 50%;
+}
+
+.double {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.double .input-container {
+    width: 100%;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 5px;
+}
+
+input {
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid var(--border-color);
+}
+
+button {
+    background-color: var(--btn-color);
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    margin-top: 20px;
+    align-self: center;
+}
