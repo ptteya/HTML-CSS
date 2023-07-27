@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+.first,
+.second,
+.third {
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+
+.first {
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)),
+        url("image/computer-main.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    text-shadow: 2px 2px black;
+    padding: 20px 0 40px 0;
+}
+
+.first nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 18px;
+}
+
+.first h1 {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.first p {
+    width: 50%;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.first button {
+    background-color: #00d08e;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+
+.right,
+.left {
+    flex-basis: 50%;
+}
+
+.second .right ul {
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 2.5rem;
+}
+
+.second .right ul li i {
+    color: #00d08e;
+    margin-right: 10px;
+}
+
+.second .right {
+    padding: 40px 70px;
+}
+
+.second p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10%;
+    padding-top: 5%;
+    justify-content: center;
+}
+
+.third .left h1 {
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+
+.card-third {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-third div {
+    width: 50%;
+    height: 70%;
+}
+
+.card-third div img {
+    object-fit: fill;
+}
+
+.card-third p {
+    color: #00d08e;
+    font-weight: 700;
+}
+
+.fourth {
+    width: 60%;
+    margin: auto;
+    background-color: #b2f1dd;
+    padding: 20px;
+}
+
+.card {
+    text-align: center;
+}
+
+.fourth h1,
+.footer {
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

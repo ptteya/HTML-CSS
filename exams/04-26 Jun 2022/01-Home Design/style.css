@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    font-family: 'Courgette', cursive;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.header h2 {
+    color: rgb(226, 75, 75);
+    width: 300px;
+    text-align: end;
+}
+
+.homes-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.home-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    width: 20%;
+    border-radius: 20px;
+}
+
+img {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.card-title {
+    font-size: 20px;
+    margin: 15px 0 8px 0;
+}
+
+hr {
+    background-color: rgb(226, 75, 75);
+    height: 2px;
+    width: 80%;
+    border: none;
+}
+
+.card-description {
+    width: 80%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+.card-button {
+    padding: 10px;
+}
+
+.card-button button {
+    background-color: white;
+    border: none;
+    font-family: 'Courgette', cursive;
+    font-size: 15px;
+}
+
+.card-button>*::after {
+    content: ">";
+    display: inline-block;
+    background-color: #ca2027;
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    color: white;
+    font-weight: bolder;
+    border-radius: 100%;
+}
