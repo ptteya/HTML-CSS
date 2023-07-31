@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url("https://use.fontawesome.com/releases/v6.1.0/css/all.css");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans";
+    background-color: #eee;
+}
+
+.container {
+    margin: 5rem auto;
+    display: flex;
+    width: 50%;
+    box-shadow: 4px 8px 7px -4px rgba(0, 0, 0, 0.5);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 50%;
+    gap: 150px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.6615780101102942) 100%, rgba(0, 0, 0, 0.7960317916228992) 100%), url('image/cover.jpg');
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    padding: 20px;
+}
+
+.left p {
+    font-weight: 700;
+    font-size: 18px;
+    align-self: flex-start;
+}
+
+.heading h1 {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.heading p {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.right {
+    padding: 40px;
+    background-color: white;
+    width: 50%;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.input-container label {
+    opacity: 0.3;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.input-container input {
+    opacity: 0.6;
+    border: none;
+    border-bottom: 1px solid rgb(156, 155, 155);
+    font-size: 18px;
+    text-indent: 10px;
+}
+
+.buttons {
+    margin-top: 50px;
+}
+
+.register-btn {
+    background-color: black;
+    color: white;
+    padding: 13px 40px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+
+.buttons p {
+    display: inline-block;
+}
+
+.buttons a {
+    color: black;
+    opacity: 0.4;
+    padding-left: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
