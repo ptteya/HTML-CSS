@@ -1,0 +1,231 @@
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0px 9%;
+    background-color: white;
+}
+
+header h1 {
+    font-weight: 400;
+}
+
+.color-word {
+    color: rgb(84, 206, 243);
+}
+
+.navigation {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navigation li {
+    font-size: 15px;
+}
+
+.navigation li a {
+    text-decoration: none;
+    color: black;
+}
+.navigation li:first-child>a {
+    padding-bottom: 3px;
+    border-bottom: 3px solid rgb(84, 206, 243);
+}
+
+.greeting {
+    background-image: url(images/slide2.jpg);
+    background-size: cover;
+    height: 80vh;
+    position:relative;
+}
+
+.get-started {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    width: 25%;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.397);
+    color: white;
+}
+
+.get-started h1 {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.get-started button {
+    background: rgb(50, 147, 177);
+    color: white;
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+}
+
+.welcome {
+    padding: 30px 250px;
+    text-align: center;
+    color: #2f3336;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.welcome h2::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid rgb(84, 206, 243);
+    width: 100px;
+    margin: 0 auto;
+}
+
+.welcome button {
+    background-color:#2f3336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 30px;
+    font-size: 15px;
+}
+
+.services-section {
+    background-color: #eee;
+    color: #2f3336;
+    padding: 50px;
+}
+
+.services-section h2::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #2f3336;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.service-card {
+    width: 20%;
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.service-card img {
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.service-card-info {
+    padding: 20px;
+}
+
+.service-card-info p {
+    padding: 15px;
+}
+
+.service-card-info button {
+    color: white;
+    background-color: #2f3336;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+}
+
+.subscribe-section {
+    background-color: #2f3336;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.subscribe-section  h2::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid white;
+    width: 100px;
+    margin: 0 auto;
+}
+
+.subscribe-section p {
+    margin-bottom: 30px; 
+}
+
+.subscribe-section input {
+    background-color:  #43474a;
+    border: none;
+    padding: 12px 250px 12px 12px;
+    color: #2f3336;
+}
+
+.subscribe-btn {
+    color: white;
+    background-color: #6BBFFF;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 30px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #272b2e;
+    padding: 40px 0;
+}
+
+footer nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-title a{
+    font-size: 18px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+i {
+    color: white;
+    padding-right: 10px;
+}
+
+footer p {
+    background-color: #1e2225;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
