@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.card {
+    background-color: #eee;
+    margin: 20px 40px;
+    height: 880px;
+}
+
+.first,
+.second,
+.fourth,
+.fifth {
+    padding: 40px 40px 0 100px;
+}
+
+.first .text-content h1,
+.second .text-content h1,
+.fourth .text-content h1,
+.sixth .text-content h1 {
+    font-size: 50px;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+
+.bold-word {
+    font-weight: 700;
+}
+
+.first .text-content p,
+.second .text-content p,
+.fourth .text-content p,
+.sixth .text-content p {
+    font-style: italic;
+    line-height: 30px;
+}
+
+.menu {
+    text-align: end;
+}
+
+.menu i {
+    margin-left: 10px;
+}
+
+.first {
+    position: relative;
+}
+
+.first .text-content {
+    position: absolute;
+    top: 300px;
+    width: 30%;
+}
+
+.content img {
+    position: absolute;
+    bottom: 0px;
+    right: 10%;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.second .content {
+    width: 40%;
+}
+
+.second h1 {
+    display: inline-block;
+}
+
+.second .text-content p {
+    margin-bottom: 30px;
+}
+
+.second .icons {
+    display: flex;
+    gap: 25px;
+}
+
+.second .icons i {
+    color: white;
+    padding: 10px;
+    background-color: #818181;
+}
+
+.third {
+    background-image: url(images/thumb-1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.fourth .image-wrapper {
+    width: 50%;
+}
+
+.fourth .image-wrapper img {
+    width: 100%;
+}
+
+.fourth .text-content {
+    width: 35%;
+}
+
+
+.fifth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.images {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+}
+
+.abs {
+    position: absolute;
+    width: 40%;
+    left: 30%;
+}
+
+.im {
+    width: 40%;
+}
+
+.sixth {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 100px;
+    gap: 100px;
+}
+
+.sixth .text-content {
+    width: 50%;
+}
+
+.sixth form {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 40%;
+}
+
+.sixth form .input-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.sixth form .input-container input {
+    width: 50%;
+}
+
+.sixth form textarea {
+    width: 100%;
+}
+
+input,
+textarea {
+    padding: 15px;
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: black;
+    font-size: 16px;
+}
+
+.send-btn {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.sixth .footer {
+    margin-top: 100px;
+    justify-self: end;
+}
+
+.line-1 {
+    border-left: 1px solid black;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.line-2 {
+    display: inline-block;
+    height: 1px;
+    width: 70px;
+    background: black;
+    vertical-align: 80%;
+    margin-right: 10px;
+}
