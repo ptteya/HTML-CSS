@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica, sans-serif
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 35px;
+}
+
+.logo p {
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.line {
+    border-right: 1px solid rgb(139, 139, 139);
+    height: 35px;
+    margin: 0 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2px;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    background-color: rgb(219, 219, 219);
+    padding: 15px 20px;
+    font-size: 13px;
+}
+
+.orange-color a {
+    background-color: orangered;
+    color: white;
+}
+
+.first {
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 845px;
+}
+
+.second {
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    padding: 80px 350px;
+}
+
+.second p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 100px;
+    background-color: #2d2d2d;
+}
+
+.third-card {
+    text-align: center;
+    width: 350px;
+}
+
+.third-card i {
+    font-size: 60px;
+    padding: 20px;
+    background-color: orangered;
+    color: white;
+}
+
+.third-card h3 {
+    margin: 15px 0;
+    color: white;
+}
+
+.third-card p {
+    color: rgb(117, 112, 112);
+    border-top: 1px solid rgb(117, 112, 112);
+    padding-top: 15px;
+    line-height: 1.5;
+}
+
+.fourth {
+    text-align: center;
+    padding: 70px;
+}
+
+.fourth h1 {
+    font-size: 30px;
+    font-weight: 400;
+    color: #2d2d2d;
+}
+
+.fourth p {
+    color: rgb(136, 135, 135);
+    margin: 5px 0 30px 0;
+}
+
+.fourth button {
+    background-color: rgb(19, 151, 107);
+    color: white;
+    border: none;
+    padding: 15px 40px;
+    font-weight: 700;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.fifth {
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 80px;
+}
+
+.fifth-card {
+    width: 340px;
+    text-align: center;
+}
+
+.fifth-card h3 {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.fifth-card p {
+    color: rgb(117, 112, 112);
+}
+
+footer {
+    background-color: rgb(19, 151, 107);
+    color: rgba(255, 255, 255, 0.356);
+    text-align: center;
+    padding: 60px;
+}
+
+footer span {
+    color: rgba(255, 255, 255, 0.74);
+}
